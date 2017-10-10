@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iphonebg"
+    tools:context="info.androidhive.materialtabs.fragments.FiveFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="107dp"
+        android:text="227 5Ave,Brooklyn NY 11215 skymobileny@gmail.com 929-366-6664 929-999-5552"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:id="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="Help and support"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:id="@+id/rlv_link"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignEnd="@+id/textView13"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignRight="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_below="@+id/textView13"
+        android:background="@color/colorPrimaryDark">
+
+    </RelativeLayout>
+
+</RelativeLayout>
